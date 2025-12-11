@@ -1,0 +1,21 @@
+{
+  "name": "polymarket-copy-trade-kt",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@influxdata/influxdb3-client": "^1.4.0",
+    "@polymarket/builder-relayer-client": "^0.0.6",
+    "@polymarket/builder-signing-sdk": "^0.0.8",
+    "@polymarket/clob-client": "^4.22.8",
+    "@polymarket/real-time-data-client": "^1.4.0",
+    "@sentry/node": "^10.25.0",
+    "dotenv": "^17.2.3",
+    "ethers": "^6.15.0",
+    "ws": "^8.18.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
