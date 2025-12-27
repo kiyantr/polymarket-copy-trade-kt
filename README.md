@@ -30,14 +30,13 @@
 
 ## 🎯 Overview
 
-Polymarket Copy Trade KT is an automated trading bot that monitors real-time trading activity on Polymarket and automatically copies trades from specified whale traders. The bot focuses on BTC up/down 15-minute markets and executes trades based on predefined conditions.
+Polymarket Copy Trade KT is an automated trading bot that monitors real-time trading activity on Polymarket and automatically copies trades from specified whale traders.
 
 ## ✨ Features
 
 - 🔄 **Real-time Monitoring**: Connects to Polymarket's real-time data feed to monitor trading activity
 - 🐋 **Whale Tracking**: Automatically copies trades from specified whale traders
 - ⚡ **Fast Execution**: Uses FAK (Fill-or-Kill) order type for immediate execution
-- 🎯 **Market Filtering**: Focuses on BTC up/down 15-minute markets
 - 💾 **Smart Caching**: Caches tick size and negative risk data for improved performance
 - 🔁 **Auto-reconnect**: Automatically reconnects if connection is lost
 
